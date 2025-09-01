@@ -5,8 +5,8 @@ import { Button } from '@/components/ui/button'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/accordion'
 import { Badge } from '@/components/ui/badge'
-import minhaImagem from "./assets/image1.jpg";
-import minhaImagem2 from "./assets/image2.jpg";
+import minhaImagem from "./assets/image1.png";
+import minhaImagem2 from "./assets/image2.png";
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from '@/components/ui/carousel'
 
 export default function Home() {
