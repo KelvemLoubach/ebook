@@ -103,7 +103,7 @@ export default function Home() {
                 <Badge className="bg-green-500 text-black hover:bg-green-400 transition-all duration-300 text-xs sm:text-sm">
                   LANÇAMENTO EXCLUSIVO
                 </Badge>
-                <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold leading-tight">
+                <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold leading-tight">
                   <span className="block">Aprenda a Vender</span>
                   <span className="block text-green-400 mt-1 sm:mt-2">na Internet</span>
                   <span className="block mt-1 sm:mt-2">Transforme seu conhecimento</span>
