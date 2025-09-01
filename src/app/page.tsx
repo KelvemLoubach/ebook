@@ -136,7 +136,7 @@ export default function Home() {
                   <img 
                     src="/assets/image1.png"
                     alt="Profissional em escritório moderno"
-                     className="w-full h-80 object-cover" 
+                     className="w-full h-auto object-cover min-h-[400px]" 
                   />
                   {/* Overlay Gradient */}
                   <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
