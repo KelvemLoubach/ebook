@@ -5,8 +5,6 @@ import { Button } from '@/components/ui/button'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/accordion'
 import { Badge } from '@/components/ui/badge'
-import minhaImagem from "../assets/image1.png";
-import minhaImagem2 from "../assets/image2.png";
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from '@/components/ui/carousel'
 
 export default function Home() {
@@ -136,7 +134,7 @@ export default function Home() {
                 {/* Main Image */}
                 <div className="relative rounded-2xl overflow-hidden shadow-2xl transform transition-transform duration-300 hover:scale-105">
                   <img 
-                    src={minhaImagem}
+                    src="/assets/image1.png"
                     alt="Profissional em escritório moderno"
                      className="w-full h-80 object-cover" 
                   />
@@ -338,7 +336,7 @@ export default function Home() {
                 {/* Main Image */}
                 <div className="relative rounded-2xl overflow-hidden shadow-2xl transform transition-transform duration-300 hover:scale-105">
                   <img 
-                    src={minhaImagem2}
+                    src="/assets/image2.png"
                     alt="Marketing Digital"
                     className="w-full h-80 object-cover" 
                   />
